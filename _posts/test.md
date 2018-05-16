@@ -1,4 +1,0 @@
----
-title: Road and Curb
----
-Bike lanes here are terribly thin.

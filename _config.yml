@@ -1,11 +1,23 @@
-title: dkgrieshammer
-description: interaction | product | design
-google_analytics: 
-show_downloads: true
+###########
+# site.title, site.url, site.author.name
 
-remote_theme: "dkgrieshammer/jekyll-minimal-theme"
+title:   'writings'
+author:  'David Grieshammer'
+name:    'Minimal Github Blog Theme'
+
+## note: 
+#  use site.path in your templates to make it work for both protocols e.g. http and https
+#  use site.url only inside the web feed template (e.g. requires full url incl. protocol)
+# path: /jekyll-minimal-theme
+# url:  'http://henrythemes.github.io/'
+# baseurl: "" # the subpath of your site, e.g. /blog
+# url: "" # the base hostname & protocol for your site, e.g. http://example.com'
+
+########
+# more settings
 
 markdown: kramdown
+
 sass:
   sass_dir: css
   style:    expanded
@@ -14,7 +26,9 @@ permalink: /:title.html
 
 exclude:
 - README.md
-
+- Gemfile
+- Gemfile.lock
 
 safe: true
 lsi: false
+
