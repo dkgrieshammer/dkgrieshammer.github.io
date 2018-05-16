@@ -2,7 +2,19 @@ title: dkgrieshammer
 description: interaction | product | design
 google_analytics: 
 show_downloads: true
-theme: jekyll-theme-minimal
 
-gems:
-  - jekyll-mentions
+remote_theme: "dkgrieshammer/jekyll-minimal-theme"
+
+markdown: kramdown
+sass:
+  sass_dir: css
+  style:    expanded
+
+permalink: /:title.html
+
+exclude:
+- README.md
+
+
+safe: true
+lsi: false
