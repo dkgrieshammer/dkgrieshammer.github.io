@@ -22,7 +22,10 @@ sass:
   sass_dir: css
   style:    expanded
 
-# permalink: /:title.html
+permalink: /:title.html
+
+plugins: 
+  - jekyll-relative-links
 
 exclude:
 - README.md
